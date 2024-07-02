@@ -59,7 +59,7 @@ class CoreDataManager {
             return []
         }
     }
-    
+     
     private func saveContext() {
         let context = persistentContainer.viewContext
         if context.hasChanges {
